@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  8fa9a6fe-cbad-44f7-a4c7-97510ace555e: # VerseStephen
+    enabledByDefault: true
+    hasUrls: true
+    template: HomeRequired.twig
+    uriFormat: __home__
+type: single

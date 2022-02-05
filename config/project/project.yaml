@@ -1,0 +1,57 @@
+dateModified: 1643983814
+email:
+  fromEmail: stephenhks@gmail.com
+  fromName: VerseStephen
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1dd89478-9351-451f-a13a-378ab38cfc08: 'Site Settings' # Site Settings
+    2e8acf67-7061-4a77-9202-f3c33c6e7c67: urlmessage # urlmessage
+    2e5565e9-2825-4488-8c36-eefe405e78ff: ButtonText # ButtonText
+    2f15e4fc-2165-48bc-9c39-e5266d07b5a0: Common # Common
+    4a43bbf1-3434-4cbb-9a3f-376017ae73cd: Home # Home
+    4de9c3f4-71a0-43b6-a76e-d8d1606f7761: MenuDownButtons # MenuDownButtons
+    5cafaa68-48ca-449c-9420-1dbf7c5c59de: MatrixLowerContent # MatrixLowerContent
+    5dec7409-8bd7-4b91-b00e-2e9d64df3aec: TextContentCenterMain # TextContentCenterMain
+    6db11389-0aad-4eb2-b8a7-66da60b3406b: imageMainBackgound # imageMainBackgound
+    7b99ab6d-ab46-4348-943b-db7d611055ec: texttitle # texttitle
+    8fa9a6fe-cbad-44f7-a4c7-97510ace555e: VerseStephen # VerseStephen
+    9c7c1a0e-3275-4cec-bb26-4366a2a3a316: VerseStephen # VerseStephen
+    14c0485c-4a5f-47df-ad50-95ca14902c52: MenuCenterButtons # MenuCenterButtons
+    020dab96-0e80-4dde-890d-7ccb760f3c7e: ButtonText # ButtonText
+    32c7a9b1-6e24-4184-9489-fdcfb8dfc79d: imagecointent # imagecointent
+    62c63bcf-7533-4cb4-953b-652e6b3f5f63: Images # Images
+    089e18dd-9001-4d5f-b6bb-66aefd5b3a95: HeaderMenu # HeaderMenu
+    95b25376-0044-47d3-9664-c06384577896: BtnHeaderOne # BtnHeaderOne
+    12596e01-c265-45a2-8252-c18a3ca0d391: Home # Home
+    b8625f2c-b336-4a39-a85b-c256c7a15aa0: buttontext # buttontext
+    bdd71e6d-88d6-4a3d-b5ab-f8048bbd7423: UrlTextContentCenter # UrlTextContentCenter
+    c93bacac-aa3e-4292-9517-4fc315d62f80: ButtonText # ButtonText
+    cdbfdf4c-82e8-45f1-800d-368cef879216: textmessage # textmessage
+    d8da346b-5693-434f-a6ec-4bd03a23eac8: MenuHeaderButtons # MenuHeaderButtons
+    e4fbd7db-dc50-4207-84bf-f262dc5eeeef: ButtonText # ButtonText
+    e7f729c3-869b-428f-be5c-aec930553ce5: ButtonText # ButtonText
+    ec3185f3-5850-441e-86b0-57890d73ae61: TextMessage # TextMessage
+    f6ffc72e-3ed1-4877-aa2e-97097e4cea1a: TextContentCenterDetail # TextContentCenterDetail
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: localhost
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

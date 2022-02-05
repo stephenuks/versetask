@@ -1,0 +1,28 @@
+fieldLayouts:
+  5e0b8d11-49e1-42b7-85f0-6a708ea1c530:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f6ffc72e-3ed1-4877-aa2e-97097e4cea1a # TextContentCenterDetail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d8da346b-5693-434f-a6ec-4bd03a23eac8 # MenuHeaderButtons
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: settings
+        sortOrder: 1
+handle: siteSettings
+name: 'Site Settings'
+sortOrder: 2

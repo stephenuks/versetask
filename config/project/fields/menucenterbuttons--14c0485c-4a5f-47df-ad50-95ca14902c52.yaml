@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 2f15e4fc-2165-48bc-9c39-e5266d07b5a0 # Common
+handle: menucenterbuttons
+instructions: ''
+name: MenuCenterButtons
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_menucenterbuttons}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

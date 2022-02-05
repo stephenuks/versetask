@@ -1,0 +1,9 @@
+baseUrl: null
+enabled: true
+handle: default
+hasUrls: false
+language: en-US
+name: VerseStephen
+primary: true
+siteGroup: 9c7c1a0e-3275-4cec-bb26-4366a2a3a316 # VerseStephen
+sortOrder: 1

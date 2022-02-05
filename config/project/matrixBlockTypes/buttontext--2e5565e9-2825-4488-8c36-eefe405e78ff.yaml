@@ -1,0 +1,41 @@
+field: 14c0485c-4a5f-47df-ad50-95ca14902c52 # MenuCenterButtons
+fieldLayouts:
+  06835dfe-33c8-4de5-8ae4-3be0879188f9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c93bacac-aa3e-4292-9517-4fc315d62f80 # ButtonText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  c93bacac-aa3e-4292-9517-4fc315d62f80: # ButtonText
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttontext
+    instructions: ''
+    name: ButtonText
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: buttontext
+name: ButtonText
+sortOrder: 1

@@ -1,0 +1,41 @@
+field: 4de9c3f4-71a0-43b6-a76e-d8d1606f7761 # MenuDownButtons
+fieldLayouts:
+  2daa0b16-0aee-4224-a228-4b017ee09503:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b8625f2c-b336-4a39-a85b-c256c7a15aa0 # buttontext
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  b8625f2c-b336-4a39-a85b-c256c7a15aa0: # buttontext
+    columnSuffix: jofqcbyx
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttontext
+    instructions: ''
+    name: buttontext
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: buttontext
+name: ButtonText
+sortOrder: 1

@@ -1,0 +1,147 @@
+field: 5cafaa68-48ca-449c-9420-1dbf7c5c59de # MatrixLowerContent
+fieldLayouts:
+  5a270874-a91b-4161-9919-945d1c8736cc:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: cdbfdf4c-82e8-45f1-800d-368cef879216 # textmessage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 32c7a9b1-6e24-4184-9489-fdcfb8dfc79d # imagecointent
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2e8acf67-7061-4a77-9202-f3c33c6e7c67 # urlmessage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7b99ab6d-ab46-4348-943b-db7d611055ec # texttitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2e8acf67-7061-4a77-9202-f3c33c6e7c67: # urlmessage
+    columnSuffix: null
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: urlmessage
+    instructions: ''
+    name: urlmessage
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  7b99ab6d-ab46-4348-943b-db7d611055ec: # texttitle
+    columnSuffix: ubvbsubl
+    contentColumnType: text
+    fieldGroup: null
+    handle: texttitle
+    instructions: ''
+    name: texttitle
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  32c7a9b1-6e24-4184-9489-fdcfb8dfc79d: # imagecointent
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: imagecointent
+    instructions: ''
+    name: imagecointent
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:62c63bcf-7533-4cb4-953b-652e6b3f5f63' # Images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:62c63bcf-7533-4cb4-953b-652e6b3f5f63' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:62c63bcf-7533-4cb4-953b-652e6b3f5f63' # Images
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  cdbfdf4c-82e8-45f1-800d-368cef879216: # textmessage
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: textmessage
+    instructions: ''
+    name: textmessage
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: textmessage
+name: TextMessage
+sortOrder: 1

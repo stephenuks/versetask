@@ -1,0 +1,19 @@
+columnSuffix: ouisaemy
+contentColumnType: text
+fieldGroup: 2f15e4fc-2165-48bc-9c39-e5266d07b5a0 # Common
+handle: textcontentcenterdetail
+instructions: ''
+name: TextContentCenterDetail
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
