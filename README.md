@@ -4,13 +4,14 @@ This repo contains all of the templates, front-end resources, and a MySQL databa
 **Craft CMS security key:*** ZFiDymCSF0sTdo3OgbjgxmM5msIYLRxC
 
 ***MySql database***
-**datafile:** versetask\craftcms.sql
-**Login:** craftcms
-**Host:** local
+**datafile:** versetask\craftcms.sql  
+
+**Login:** craftcms  
+**Host:** local  
 **Password:** Aa111111
 
 ***Craft CMS Portal***
-**Login:** admin
+**Login:** admin  
 **Passsword:** Aa111111
 
 ***API function URL***
