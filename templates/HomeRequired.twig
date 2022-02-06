@@ -14,12 +14,13 @@
 <div id="container">
 	<div id="main">
 		<div id="headerMenu" class="div-header-menu">
-			<nav role="navigation" class="nav-menu">
+			<nav role="navigation" class="nav-menu"> <!-- Loop for generate header menu bar -->
 				{% for menuhdrbutton in entry.menuheaderbuttons.all() %}
 					<a href="#" class="c-nav-link">{{ menuhdrbutton.buttontext}}</a>
 				{% endfor %}
 			</nav>
 		</div>
+		<!-- start for content div --> 
 		<div class="container-xxl center-content" style="background-image: url('{{ entry.imagemainbackgound.one().url}}');">
 			<div class="row">
 				<div class="col align-self-start">
@@ -48,16 +49,16 @@
 				<div class="col align-self-end">
 				</div>
 			</div>
-			<div class="div-header-menu">
+			<div id="centerMenu" class="div-center-menu">
 				<nav role="navigation" class="nav-menu">
 					{% for menuctrbutton in entry.menucenterbuttons.all() %}
-				<a href="#" class="c-center-link">{{ menuctrbutton.buttontext}}</a>
+				<a href="#" class="c-nav-link c-center-link">{{ menuctrbutton.buttontext}}</a>
 					{% endfor %}
 				</nav>
 			</div>
 		</div> <!-- End Center Contennt div-->
 		
-		<div id="headerMenu" class="div-header-menu">
+		<div id="downMenu" class="div-down-menu">
 			<nav role="navigation" class="nav-menu">
 				{% for menuDwnbutton in entry.menudownbuttons.all() %}
 					<a href="#" class="c-nav-link">{{ menuDwnbutton.buttontext}}</a>

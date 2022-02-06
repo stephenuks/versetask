@@ -6,26 +6,23 @@ use craft\helpers\UrlHelper;
 return [
     'endpoints' => [
 		// Return all entry from home - website
-        'allentry.json' => function() {
+        'allentry.json' => function() {	// JSON file name - http://localhost/craft/web/allentry.json
             return[
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'home'],	// criteria to define which section is selected
                 'transformer' => function(Entry $entry) {
                     $imgMainBackgound = $entry->imagemainbackgound->one();
-					$contentMessage = [];
-					$contentType = [];
-					//foreach ($entry->matrixlowercontent as $block) {
+					$contentMessageList = [];
+					
+					// Loop for store message list
 					foreach ($entry->getFieldValue('matrixlowercontent')->all() as $block) {
 						switch ($block->type->handle) {
 							case 'textmessage':
-								$contentType[] = [
-									'textmessage' => $block->textmessage->getParsedContent(),
+								$contentMessageList[] = [
+									'textmessage' => $block['textmessage'],
 								];
 								break;
 						}
-						//$contentType[] = $entry->getFieldValue('matrixlowercontent')->all();
-						//$contentList[] = ['textmessage' => $entry->matrixlowercontent->textmessage];
-						//$contentMessage[] = $entry->getParsedContent();
 					}
 					
 
@@ -33,8 +30,7 @@ return [
 						'TextContentCenterMain' => $entry->textcontentcentermain,
 						'TextContentCenterDetail' => $entry->textcontentcenterdetail,
 						'BackgroundImage' => $imgMainBackgound ? $imgMainBackgound->getUrl(['height' => 0]) : null,
-						'ContentType' => $contentType,
-						//'ContentMessage' => $contentMessage,
+						'ContentList' => $contentMessageList,
                     ];
                 },
                 'meta' => [
@@ -43,7 +39,7 @@ return [
             ];
         },
 		// Return all image entry from home - website
-		'image.json' => function() {
+		'image.json' => function() {	// JSON file name - http://localhost/craft/web/image.json
             return[
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'home'],	// criteria to define which section is selected
