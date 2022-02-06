@@ -11,3 +11,9 @@ Password: Aa111111
 Craft CMS Portal
 Login: admin
 Passsword: Aa111111
+
+API function can be found in below URL
+- All entry includes the matrix object
+http://localhost/craft/web/allentry.json
+- image only
+http://localhost/craft/web/image.json
